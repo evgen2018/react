@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  background: rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
 
 .App-logo {
@@ -25,4 +31,90 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+h2{
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px 0 40px;
+  color: #888888;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.frame{
+  width: 500px;
+  margin: 0 auto;
+  background: #ffffff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.create{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.add{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+
+.new{
+  color: #999999;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 5px 0 10px;
+}
+
+.create-block{
+  border: 1px solid #ddd;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.item__text {
+  text-align: left;
+}
+
+.item{
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.item:hover{
+  border: 1px solid #4d4;
+}
+
+.item__title{
+  color: #444;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.item__count{
+  color: #888;
+  font-size: 15px;
+}
+
+.noMore{
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 13px;
 }
